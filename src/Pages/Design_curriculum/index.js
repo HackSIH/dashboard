@@ -46,13 +46,14 @@ class CurriculumForm extends Component {
     super(props);
 
     this.state = {
-      curriculum: '',
-      resources: '',
-      credits: '',
-      learningOutcome: '',
-      instituteName: '',
+      subjectcode: '',
+      subjectname: '',
       semester: '',
-      branch: '',
+      Branch: '',
+      institute: '',
+      credits: '',
+      curriculum: '',
+      learningOutcome: '',
     };
   }
 

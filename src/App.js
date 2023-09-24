@@ -12,6 +12,7 @@ import Design_curriculum from "./Pages/Design_curriculum";
 function App() {
   return (
     <div className="App">
+      <div className="image"></div>
       <AppHeader />
       <div className="SideMenuAndPageContent">
         <SideMenu />

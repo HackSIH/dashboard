@@ -29,10 +29,11 @@ img{
   position: absolute;
   top: 0;
   left: 0;
+  margin-left: 6em;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url('c:\Users\hp\Desktop\background3.jpg');
+  background-image: url('https://img.freepik.com/free-vector/indian-tricolor-theme-watercolor-texture-patriotic-background-vector_1055-11952.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -23,7 +23,7 @@ import {
           }}
           items={[
             {
-              label: "Dashbaord",
+              label: "Dashboard",
               icon: <AppstoreOutlined />,
               key: "/",
             },
@@ -36,6 +36,11 @@ import {
               label: "Design Curriculum",
               key: "/Design_Curriculum",
               icon: <ShoppingCartOutlined />,
+            },
+            {
+              label: "Resources",
+              key: "/Resources",
+              icon: <UserOutlined />,
             },
             {
               label: "My Uploads",

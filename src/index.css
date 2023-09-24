@@ -51,6 +51,16 @@ code {
   color: rgb(255, 0, 0);
   padding-left: 14em;
 }
+.title1{
+  color: rgb(255, 0, 0);
+  padding-left: 1em;
+  font-size: 100px;
+  margin-top: 250px;
+}
+.title2 {
+  color: rgb(255, 0, 0);
+  padding-left: 14em;
+}
 .subject{
   display:flex;
   

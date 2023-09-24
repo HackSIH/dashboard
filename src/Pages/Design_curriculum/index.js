@@ -146,7 +146,7 @@ class CurriculumForm extends Component {
               required
             />
           </FormGroup>
-          <Button type="submit">Submit</Button>
+          <Button type="submit">Upload</Button>
         </Form>
       </FormContainer>
       </div>

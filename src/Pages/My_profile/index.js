@@ -1,7 +1,9 @@
 
 import React from "react";
+
   
   function Dashboard() {
+
     const handleChange = (e) => {
  
     };
@@ -11,6 +13,8 @@ import React from "react";
     };
   
     return (
+      <div className="profdata">
+        <h1 className="title">My Personal Information</h1>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
         <div className='div1'>
@@ -75,6 +79,7 @@ import React from "react";
           </div>
        
         </form>
+      </div>
       </div>
     );
   }

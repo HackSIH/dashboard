@@ -4,7 +4,7 @@ import {
     ShoppingCartOutlined,
     UserOutlined,
   } from "@ant-design/icons";
-  import DesignServicesIcon from '@mui/icons-material/DesignServices';
+  
   import { Menu } from "antd";
 
   import { useNavigate } from "react-router-dom";

@@ -41,7 +41,30 @@ code {
   justify-content: space-between;
 }
 .descurr {
+  padding-left: 10em;
   font-weight: bold;
   color: rgb(255, 0, 0);
-  margin: 20px 400px;
+  margin-left: 2em;
+}
+.subject{
+  display:flex;
+  
+}
+.sem_branch{
+  display: flex;
+}
+.inst_credits{
+  display: flex;
+}
+.name{
+  margin-left: 8em;
+}
+.branch{
+  margin-left: 8em;
+}
+.credits{
+  margin-left: 8em;
+}
+.curr{
+  padding-left: 15em;
 }

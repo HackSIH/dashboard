@@ -70,63 +70,39 @@ class CurriculumForm extends Component {
     return (
       <div>
         <h1 className='descurr'>Design Your Curriculum Here </h1>
-      <FormContainer>
+      <FormContainer className='curr'>
         <Form onSubmit={this.handleSubmit}>
-          <FormGroup>
-            <Label htmlFor="curriculum" className='curriculum'>Curriculum:</Label>
-            <TextArea
-              id="curriculum"
-              name="curriculum"
-              value={this.state.curriculum}
-              onChange={this.handleChange}
-              required
-            />
-          </FormGroup>
-          <FormGroup>
-            <Label htmlFor="resources">Resources:</Label>
-            <TextArea
-              id="resources"
-              name="resources"
-              value={this.state.resources}
-              onChange={this.handleChange}
-              required
-            />
-          </FormGroup>
-          <FormGroup>
-            <Label htmlFor="credits">Credits:</Label>
+         <div className='subject'> 
+        <FormGroup >
+            <Label htmlFor="subjectcode">Subject Code:</Label>
             <Input
+            size="10"
               type="text"
-              id="credits"
-              name="credits"
-              value={this.state.credits}
+              id="subjectcode"
+              name="subjectcode"
+              value={this.state.subjectcode}
               onChange={this.handleChange}
               required
             />
           </FormGroup>
-          <FormGroup>
-            <Label htmlFor="learningOutcome">Learning Outcome:</Label>
-            <TextArea
-              id="learningOutcome"
-              name="learningOutcome"
-              value={this.state.learningOutcome}
-              onChange={this.handleChange}
-              required
-            />
-          </FormGroup>
-          <FormGroup>
-            <Label htmlFor="instituteName">Institute Name:</Label>
+          <FormGroup className='name'>
+            <Label htmlFor="subjectname">Subject Name:</Label>
             <Input
+            size="10"
               type="text"
-              id="instituteName"
-              name="instituteName"
-              value={this.state.instituteName}
+              id="subjectname"
+              name="subjectname"
+              value={this.state.subjectname}
               onChange={this.handleChange}
               required
             />
           </FormGroup>
+          </div>
+          <div className='sem_branch'>
           <FormGroup>
             <Label htmlFor="semester">Semester:</Label>
             <Input
+            size="14"
               type="text"
               id="semester"
               name="semester"
@@ -135,13 +111,64 @@ class CurriculumForm extends Component {
               required
             />
           </FormGroup>
-          <FormGroup>
+          <FormGroup className='branch'>
             <Label htmlFor="branch">Branch:</Label>
             <Input
+            size="18"
               type="text"
               id="branch"
               name="branch"
               value={this.state.branch}
+              onChange={this.handleChange}
+              required
+            />
+          </FormGroup>
+          </div>
+          <div className='inst_credits'>
+          <FormGroup>
+            <Label htmlFor="institute">Institute:         </Label>
+            <Input
+            size="14"
+              type="text"
+              id="institute"
+              name="institute"
+              value={this.state.institute}
+              onChange={this.handleChange}
+              required
+            />
+          </FormGroup>
+          <FormGroup className='credits'>
+            <Label htmlFor="credits">Credits:</Label>
+            <Input
+            size="18"
+              type="text"
+              id="credits"
+              name="credits"
+              value={this.state.credits}
+              onChange={this.handleChange}
+              required
+            />
+          </FormGroup>
+          </div>
+          <FormGroup>
+            <Label htmlFor="curriculum" className='curriculum'>Curriculum:</Label>
+            <TextArea
+            rows="4" cols="50"
+              id="curriculum"
+              name="curriculum"
+              value={this.state.curriculum}
+              onChange={this.handleChange}
+              required
+            />
+          </FormGroup>
+          
+          <FormGroup>
+            <Label htmlFor="learningOutcome">Learning Outcome:</Label>
+            <TextArea
+            rows="4" cols="50"
+              id="learningOutcome"
+              name="learningOutcome"
+              value={this.state.learningOutcome}
               onChange={this.handleChange}
               required
             />

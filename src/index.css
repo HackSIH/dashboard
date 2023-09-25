@@ -53,9 +53,9 @@ code {
 }
 .title1{
   color: rgb(255, 0, 0);
-  padding-left: 1em;
+  padding-left: 2em;
   font-size: 90px;
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .title2 {
   color: rgb(255, 0, 0);
@@ -85,4 +85,13 @@ code {
 }
 .SideMenuVertical :hover {
   color: red;
+}
+.res {
+  font-weight: bold;
+  color: red;
+  margin-left: 400px;
+  font-size: 50px;
+}
+.curbut {
+  
 }

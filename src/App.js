@@ -7,7 +7,8 @@ import SideMenu from "./Components/SideMenu";
 import Dashboard from "./Pages/Dashboard";
 import AppRoutes from "./Components/AppRoutes";
 import Design_curriculum from "./Pages/Design_curriculum";
-import resources from "./Pages/resources";
+import Resources from "./Pages/resources";
+
 
 function App() {
   return (

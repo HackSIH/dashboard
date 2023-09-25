@@ -7,7 +7,7 @@ import Dropzone from 'react-dropzone';
 const UploadContainer = styled.div`
   max-width: 900px;
   margin: 100px 400px;
-  .curbutton{    
+  .curbut{    
     background: #B9DFFF;
     color: #fff;
     border: 1px solid #eee;
@@ -15,7 +15,7 @@ const UploadContainer = styled.div`
     box-shadow: 5px 5px 5px #eee;
     text-shadow: none;
 }
-.curbutton:hover {
+.curbut:hover {
 background: #016ABC;
 color: #fff;
 border: 1px solid #eee;

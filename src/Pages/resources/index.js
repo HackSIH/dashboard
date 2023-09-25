@@ -7,6 +7,24 @@ import Dropzone from 'react-dropzone';
 const UploadContainer = styled.div`
   max-width: 900px;
   margin: 100px 400px;
+  .curbutton{    
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+.form-submit-button:hover {
+background: #016ABC;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+
+  }
 `;
 
 const FileUploadContainer = styled.div`

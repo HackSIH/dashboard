@@ -15,7 +15,7 @@ const UploadContainer = styled.div`
     box-shadow: 5px 5px 5px #eee;
     text-shadow: none;
 }
-.form-submit-button:hover {
+.curbutton:hover {
 background: #016ABC;
 color: #fff;
 border: 1px solid #eee;
